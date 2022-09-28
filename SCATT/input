@@ -1,0 +1,42 @@
+
+ 1    35000 
+50000  35000
+3500    25000   21500
+5000  500
+'F' 'H' 'H' 'H' 'N'
+24  30  3.5  15.5 
+200 12   0.8  6.0
+200 3   1.2  4.5
+200 3   1.2  4.5
+0 0 1
+10 0 1
+10 0 1
+12 0 1
+16  14 
+2
+1.0  5.43394  0.25  2   1
+1     1     1     1
+5.14233   1.77402  1.96885  1.92975  0.0198  123.4997  109.3673   359.9802  0.0280
+1  2.0 0.5  3.5  1.5  0.025  1.0
+
+
+	    read(*,*), IDPOT,VCUT
+            read(*,*), KCUT, RCUT
+            read(*,*), EIGmin, EIGmax, NE0
+            read(*,*), NSTEP, NPRINT
+            read(*,*), ATOM
+            read(*,*), NZ, NZVB, Zmin, Zmax   
+            read(*,*), NR1, NVB1, R1min, R1max
+            read(*,*), NR2, NVB2, R2min, R2max
+            read(*,*), NR3, NVB3, R3min, R3max
+            read(*,*), Jtot, KBZmax, parity 
+	    read(*,*), J1max, JS1, JD1
+	    read(*,*), J2max, JS2, JD2
+	    read(*,*), J3max, JS3, JD3
+            read(*,*), J123max, J23max 
+	    read(*,*), NSYM
+            read(*,*), ESKinit, Zinit, DELTA, IDINIT, IREAD 
+            read(*,*), istat1, istat2, istat3, istat4
+            read(*,*), Z0, R10, R20, R30, A10, A20, A30, B10, B20    
+            read(*,*), IDABS, PZABS, CZABS, ZABS, PR2ABS, CR2ABS, R2ABS
+
